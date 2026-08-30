@@ -107,14 +107,14 @@ During acute medical emergencies—such as high-velocity trauma resuscitations, 
 
 ## 6. Live Demo
 
-- **Frontend Application (Vercel)**: [https://bloodbridge-app.vercel.app](https://bloodbridge-app.vercel.app) *(or your deployed Vercel URL)*
+- **Frontend Application (Vercel)**: [https://bloodbridge-lime.vercel.app](https://bloodbridge-lime.vercel.app)
 
 ---
 
 ## 7. Backend
 
-- **Backend API (Render)**: [https://bloodbridge-api.onrender.com](https://bloodbridge-api.onrender.com) *(or your deployed Render API URL)*
-- **API Health Endpoint**: `https://bloodbridge-api.onrender.com/api/health`
+- **Backend API (Render)**: [https://bloodbridge-api-zajf.onrender.com](https://bloodbridge-api-zajf.onrender.com)
+- **API Health Endpoint**: [https://bloodbridge-api-zajf.onrender.com/api/health](https://bloodbridge-api-zajf.onrender.com/api/health)
 
 ---
 
@@ -132,7 +132,7 @@ Follow these steps to run the BloodBridge platform locally:
 
 ### Step 1: Clone Repository
 ```bash
-git clone https://github.com/your-username/bloodbridge.git
+git clone https://github.com/vidyabhagat1821-sketch/bloodbridge.git
 cd bloodbridge
 ```
 
@@ -140,7 +140,7 @@ cd bloodbridge
 
 ### Step 2: Install Dependencies
 
-#### Install Root, Server, and Client packages:
+#### Install Server and Client packages:
 ```bash
 # Install server dependencies
 cd server
@@ -209,13 +209,13 @@ This tests Health, OTP Auth, AI NLP Parsing, Blood Request Creation, Geospatial 
 | `JWT_SECRET` | Secret key used to sign and verify JWT tokens | *(secure random string)* |
 | `MONGODB_URI` | MongoDB Atlas connection string | `mongodb+srv://<user>:<password>@cluster.mongodb.net/bloodbridge` |
 | `GEMINI_API_KEY` | Google Gemini API Key for NLP parsing & RAG chat | *(Your Google AI Studio Key)* |
-| `CLIENT_URL` | Allowed frontend CORS origin | `http://localhost:5173` or `https://your-app.vercel.app` |
+| `CLIENT_URL` | Allowed frontend CORS origin | `http://localhost:5173` or `https://bloodbridge-lime.vercel.app` |
 
 ### Frontend Variables (`client/.env`)
 
 | Variable Name | Description | Example / Default |
 | :--- | :--- | :--- |
-| `VITE_API_URL` | Base URL for the backend API | `/api` (local proxy) or `https://your-api.onrender.com/api` |
+| `VITE_API_URL` | Base URL for the backend API | `/api` (local proxy) or `https://bloodbridge-api-zajf.onrender.com/api` |
 
 ---
 
